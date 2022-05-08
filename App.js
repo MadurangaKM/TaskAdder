@@ -30,7 +30,6 @@ export default function App() {
         message: "Item Is Already Exit",
         type: "warning",
       });
-      setEnteredGoal("");
       return;
     }
     setAllGoalsset([

@@ -33,7 +33,15 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     borderRadius: 10,
     flexDirection: "row",
-    marginBottom: 5,
+    marginBottom: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
   },
 });
 

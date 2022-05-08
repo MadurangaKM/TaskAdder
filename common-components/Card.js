@@ -9,7 +9,15 @@ const Card = (props) => {
           <Text>{props.value}</Text>
         </View>
         <View style={{ flex: 0.2, alignItems: "center" }}>
-          <TouchableOpacity onPress={props.onPress}>
+          <TouchableOpacity
+            onPress={props.onPress}
+            style={{
+              flex: 1,
+              alignItems: "center",
+              justifyContent: "center",
+              width: "100%",
+            }}
+          >
             <Icon name="delete" size={24} color="#4C4C4C" />
           </TouchableOpacity>
         </View>
